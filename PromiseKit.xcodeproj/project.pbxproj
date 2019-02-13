@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04159363221425C800A18AB1 /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415932C221425C800A18AB1 /* UIViewController+AnyPromise.m */; };
+		04159364221425C800A18AB1 /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415932F221425C800A18AB1 /* UIView+Promise.swift */; };
+		04159365221425C800A18AB1 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159331221425C800A18AB1 /* UIView+AnyPromise.m */; };
+		04159366221425C800A18AB1 /* PMKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159332221425C800A18AB1 /* PMKAlertController.swift */; };
+		04159367221425C800A18AB1 /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159333221425C800A18AB1 /* UIViewController+Promise.swift */; };
+		04159368221425C800A18AB1 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159337221425C800A18AB1 /* NSNotificationCenter+Promise.swift */; };
+		04159369221425C800A18AB1 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159338221425C800A18AB1 /* NSNotificationCenter+AnyPromise.m */; };
+		0415936A221425C800A18AB1 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159339221425C800A18AB1 /* afterlife.swift */; };
+		0415936B221425C800A18AB1 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415933B221425C800A18AB1 /* NSURLSession+Promise.swift */; };
+		0415936C221425C800A18AB1 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415933C221425C800A18AB1 /* NSURLSession+AnyPromise.m */; };
+		0415936D221425C800A18AB1 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415933D221425C800A18AB1 /* NSObject+Promise.swift */; };
+		0415936E221425C800A18AB1 /* URLDataPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159340221425C800A18AB1 /* URLDataPromise.swift */; };
+		0415936F221425C800A18AB1 /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159341221425C800A18AB1 /* Process+Promise.swift */; };
+		04159370221425C800A18AB1 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159342221425C800A18AB1 /* NSTask+AnyPromise.m */; };
+		04159371221425C800A18AB1 /* CALayer+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159345221425C800A18AB1 /* CALayer+AnyPromise.m */; };
+		04159372221425C800A18AB1 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415934A221425C800A18AB1 /* join.m */; };
+		04159373221425C800A18AB1 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415934B221425C800A18AB1 /* when.swift */; };
+		04159374221425C800A18AB1 /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415934C221425C800A18AB1 /* DispatchQueue+Promise.swift */; };
+		04159375221425C800A18AB1 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415934D221425C800A18AB1 /* race.swift */; };
+		04159376221425C800A18AB1 /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415934E221425C800A18AB1 /* join.swift */; };
+		04159377221425C800A18AB1 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415934F221425C800A18AB1 /* when.m */; };
+		04159378221425C800A18AB1 /* Zalgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159350221425C800A18AB1 /* Zalgo.swift */; };
+		04159379221425C800A18AB1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159351221425C800A18AB1 /* Error.swift */; };
+		0415937A221425C800A18AB1 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159352221425C800A18AB1 /* after.swift */; };
+		0415937B221425C800A18AB1 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159354221425C800A18AB1 /* dispatch_promise.m */; };
+		0415937C221425C800A18AB1 /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159355221425C800A18AB1 /* Promise+Properties.swift */; };
+		0415937D221425C800A18AB1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159356221425C800A18AB1 /* State.swift */; };
+		0415937E221425C800A18AB1 /* PMKCallVariadicBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159357221425C800A18AB1 /* PMKCallVariadicBlock.m */; };
+		0415937F221425C800A18AB1 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159359221425C800A18AB1 /* hang.m */; };
+		04159380221425C800A18AB1 /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415935A221425C800A18AB1 /* GlobalState.m */; };
+		04159381221425C800A18AB1 /* wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415935B221425C800A18AB1 /* wrap.swift */; };
+		04159382221425C800A18AB1 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415935C221425C800A18AB1 /* Promise.swift */; };
+		04159383221425C800A18AB1 /* Promise+AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415935D221425C800A18AB1 /* Promise+AnyPromise.swift */; };
+		04159384221425C800A18AB1 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415935E221425C800A18AB1 /* AnyPromise.swift */; };
+		04159385221425C800A18AB1 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159360221425C800A18AB1 /* AnyPromise.m */; };
+		04159386221425C800A18AB1 /* NSMethodSignatureForBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159361221425C800A18AB1 /* NSMethodSignatureForBlock.m */; };
+		04159387221425C800A18AB1 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 04159362221425C800A18AB1 /* after.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0415931D221424EB00A18AB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0415931F221424EB00A18AB1 /* libPromiseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPromiseKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415932C221425C800A18AB1 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		0415932D221425C800A18AB1 /* PMKUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMKUIKit.h; sourceTree = "<group>"; };
+		0415932E221425C800A18AB1 /* UIView+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		0415932F221425C800A18AB1 /* UIView+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Promise.swift"; sourceTree = "<group>"; };
+		04159330221425C800A18AB1 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		04159331221425C800A18AB1 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		04159332221425C800A18AB1 /* PMKAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMKAlertController.swift; sourceTree = "<group>"; };
+		04159333221425C800A18AB1 /* UIViewController+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Promise.swift"; sourceTree = "<group>"; };
+		04159336221425C800A18AB1 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		04159337221425C800A18AB1 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		04159338221425C800A18AB1 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		04159339221425C800A18AB1 /* afterlife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = afterlife.swift; sourceTree = "<group>"; };
+		0415933A221425C800A18AB1 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		0415933B221425C800A18AB1 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		0415933C221425C800A18AB1 /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		0415933D221425C800A18AB1 /* NSObject+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Promise.swift"; sourceTree = "<group>"; };
+		0415933E221425C800A18AB1 /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		0415933F221425C800A18AB1 /* PMKFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMKFoundation.h; sourceTree = "<group>"; };
+		04159340221425C800A18AB1 /* URLDataPromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLDataPromise.swift; sourceTree = "<group>"; };
+		04159341221425C800A18AB1 /* Process+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Process+Promise.swift"; sourceTree = "<group>"; };
+		04159342221425C800A18AB1 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		04159345221425C800A18AB1 /* CALayer+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AnyPromise.m"; sourceTree = "<group>"; };
+		04159346221425C800A18AB1 /* PMKQuartzCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMKQuartzCore.h; sourceTree = "<group>"; };
+		04159347221425C800A18AB1 /* CALayer+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AnyPromise.h"; sourceTree = "<group>"; };
+		04159349221425C800A18AB1 /* fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fwd.h; sourceTree = "<group>"; };
+		0415934A221425C800A18AB1 /* join.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = join.m; sourceTree = "<group>"; };
+		0415934B221425C800A18AB1 /* when.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = when.swift; sourceTree = "<group>"; };
+		0415934C221425C800A18AB1 /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
+		0415934D221425C800A18AB1 /* race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = race.swift; sourceTree = "<group>"; };
+		0415934E221425C800A18AB1 /* join.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = join.swift; sourceTree = "<group>"; };
+		0415934F221425C800A18AB1 /* when.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = when.m; sourceTree = "<group>"; };
+		04159350221425C800A18AB1 /* Zalgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zalgo.swift; sourceTree = "<group>"; };
+		04159351221425C800A18AB1 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		04159352221425C800A18AB1 /* after.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = after.swift; sourceTree = "<group>"; };
+		04159353221425C800A18AB1 /* AnyPromise+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnyPromise+Private.h"; sourceTree = "<group>"; };
+		04159354221425C800A18AB1 /* dispatch_promise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dispatch_promise.m; sourceTree = "<group>"; };
+		04159355221425C800A18AB1 /* Promise+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Properties.swift"; sourceTree = "<group>"; };
+		04159356221425C800A18AB1 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		04159357221425C800A18AB1 /* PMKCallVariadicBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMKCallVariadicBlock.m; sourceTree = "<group>"; };
+		04159358221425C800A18AB1 /* AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyPromise.h; sourceTree = "<group>"; };
+		04159359221425C800A18AB1 /* hang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hang.m; sourceTree = "<group>"; };
+		0415935A221425C800A18AB1 /* GlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalState.m; sourceTree = "<group>"; };
+		0415935B221425C800A18AB1 /* wrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wrap.swift; sourceTree = "<group>"; };
+		0415935C221425C800A18AB1 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		0415935D221425C800A18AB1 /* Promise+AnyPromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+AnyPromise.swift"; sourceTree = "<group>"; };
+		0415935E221425C800A18AB1 /* AnyPromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyPromise.swift; sourceTree = "<group>"; };
+		0415935F221425C800A18AB1 /* PromiseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromiseKit.h; sourceTree = "<group>"; };
+		04159360221425C800A18AB1 /* AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnyPromise.m; sourceTree = "<group>"; };
+		04159361221425C800A18AB1 /* NSMethodSignatureForBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMethodSignatureForBlock.m; sourceTree = "<group>"; };
+		04159362221425C800A18AB1 /* after.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = after.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0415931C221424EB00A18AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04159316221424EB00A18AB1 = {
+			isa = PBXGroup;
+			children = (
+				04159321221424EB00A18AB1 /* PromiseKit */,
+				04159320221424EB00A18AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04159320221424EB00A18AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0415931F221424EB00A18AB1 /* libPromiseKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04159321221424EB00A18AB1 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				04159329221425C800A18AB1 /* Extensions */,
+				04159348221425C800A18AB1 /* Sources */,
+			);
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		04159329221425C800A18AB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0415932A221425C800A18AB1 /* UIKit */,
+				04159334221425C800A18AB1 /* Foundation */,
+				04159343221425C800A18AB1 /* QuartzCore */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0415932A221425C800A18AB1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0415932B221425C800A18AB1 /* Sources */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		0415932B221425C800A18AB1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0415932C221425C800A18AB1 /* UIViewController+AnyPromise.m */,
+				0415932D221425C800A18AB1 /* PMKUIKit.h */,
+				0415932E221425C800A18AB1 /* UIView+AnyPromise.h */,
+				0415932F221425C800A18AB1 /* UIView+Promise.swift */,
+				04159330221425C800A18AB1 /* UIViewController+AnyPromise.h */,
+				04159331221425C800A18AB1 /* UIView+AnyPromise.m */,
+				04159332221425C800A18AB1 /* PMKAlertController.swift */,
+				04159333221425C800A18AB1 /* UIViewController+Promise.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04159334221425C800A18AB1 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				04159335221425C800A18AB1 /* Sources */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		04159335221425C800A18AB1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04159336221425C800A18AB1 /* NSURLSession+AnyPromise.h */,
+				04159337221425C800A18AB1 /* NSNotificationCenter+Promise.swift */,
+				04159338221425C800A18AB1 /* NSNotificationCenter+AnyPromise.m */,
+				04159339221425C800A18AB1 /* afterlife.swift */,
+				0415933A221425C800A18AB1 /* NSTask+AnyPromise.h */,
+				0415933B221425C800A18AB1 /* NSURLSession+Promise.swift */,
+				0415933C221425C800A18AB1 /* NSURLSession+AnyPromise.m */,
+				0415933D221425C800A18AB1 /* NSObject+Promise.swift */,
+				0415933E221425C800A18AB1 /* NSNotificationCenter+AnyPromise.h */,
+				0415933F221425C800A18AB1 /* PMKFoundation.h */,
+				04159340221425C800A18AB1 /* URLDataPromise.swift */,
+				04159341221425C800A18AB1 /* Process+Promise.swift */,
+				04159342221425C800A18AB1 /* NSTask+AnyPromise.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04159343221425C800A18AB1 /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				04159344221425C800A18AB1 /* Sources */,
+			);
+			path = QuartzCore;
+			sourceTree = "<group>";
+		};
+		04159344221425C800A18AB1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04159345221425C800A18AB1 /* CALayer+AnyPromise.m */,
+				04159346221425C800A18AB1 /* PMKQuartzCore.h */,
+				04159347221425C800A18AB1 /* CALayer+AnyPromise.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04159348221425C800A18AB1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04159349221425C800A18AB1 /* fwd.h */,
+				0415934A221425C800A18AB1 /* join.m */,
+				0415934B221425C800A18AB1 /* when.swift */,
+				0415934C221425C800A18AB1 /* DispatchQueue+Promise.swift */,
+				0415934D221425C800A18AB1 /* race.swift */,
+				0415934E221425C800A18AB1 /* join.swift */,
+				0415934F221425C800A18AB1 /* when.m */,
+				04159350221425C800A18AB1 /* Zalgo.swift */,
+				04159351221425C800A18AB1 /* Error.swift */,
+				04159352221425C800A18AB1 /* after.swift */,
+				04159353221425C800A18AB1 /* AnyPromise+Private.h */,
+				04159354221425C800A18AB1 /* dispatch_promise.m */,
+				04159355221425C800A18AB1 /* Promise+Properties.swift */,
+				04159356221425C800A18AB1 /* State.swift */,
+				04159357221425C800A18AB1 /* PMKCallVariadicBlock.m */,
+				04159358221425C800A18AB1 /* AnyPromise.h */,
+				04159359221425C800A18AB1 /* hang.m */,
+				0415935A221425C800A18AB1 /* GlobalState.m */,
+				0415935B221425C800A18AB1 /* wrap.swift */,
+				0415935C221425C800A18AB1 /* Promise.swift */,
+				0415935D221425C800A18AB1 /* Promise+AnyPromise.swift */,
+				0415935E221425C800A18AB1 /* AnyPromise.swift */,
+				0415935F221425C800A18AB1 /* PromiseKit.h */,
+				04159360221425C800A18AB1 /* AnyPromise.m */,
+				04159361221425C800A18AB1 /* NSMethodSignatureForBlock.m */,
+				04159362221425C800A18AB1 /* after.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0415931E221424EB00A18AB1 /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04159326221424EB00A18AB1 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				0415931B221424EB00A18AB1 /* Sources */,
+				0415931C221424EB00A18AB1 /* Frameworks */,
+				0415931D221424EB00A18AB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = 0415931F221424EB00A18AB1 /* libPromiseKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04159317221424EB00A18AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ike;
+				TargetAttributes = {
+					0415931E221424EB00A18AB1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0415931A221424EB00A18AB1 /* Build configuration list for PBXProject "PromiseKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04159316221424EB00A18AB1;
+			productRefGroup = 04159320221424EB00A18AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0415931E221424EB00A18AB1 /* PromiseKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0415931B221424EB00A18AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415937A221425C800A18AB1 /* after.swift in Sources */,
+				0415936F221425C800A18AB1 /* Process+Promise.swift in Sources */,
+				04159380221425C800A18AB1 /* GlobalState.m in Sources */,
+				04159375221425C800A18AB1 /* race.swift in Sources */,
+				04159379221425C800A18AB1 /* Error.swift in Sources */,
+				04159372221425C800A18AB1 /* join.m in Sources */,
+				0415937D221425C800A18AB1 /* State.swift in Sources */,
+				04159382221425C800A18AB1 /* Promise.swift in Sources */,
+				04159377221425C800A18AB1 /* when.m in Sources */,
+				04159368221425C800A18AB1 /* NSNotificationCenter+Promise.swift in Sources */,
+				0415936B221425C800A18AB1 /* NSURLSession+Promise.swift in Sources */,
+				04159364221425C800A18AB1 /* UIView+Promise.swift in Sources */,
+				04159386221425C800A18AB1 /* NSMethodSignatureForBlock.m in Sources */,
+				0415936E221425C800A18AB1 /* URLDataPromise.swift in Sources */,
+				04159371221425C800A18AB1 /* CALayer+AnyPromise.m in Sources */,
+				0415937B221425C800A18AB1 /* dispatch_promise.m in Sources */,
+				04159373221425C800A18AB1 /* when.swift in Sources */,
+				04159363221425C800A18AB1 /* UIViewController+AnyPromise.m in Sources */,
+				04159383221425C800A18AB1 /* Promise+AnyPromise.swift in Sources */,
+				04159374221425C800A18AB1 /* DispatchQueue+Promise.swift in Sources */,
+				04159370221425C800A18AB1 /* NSTask+AnyPromise.m in Sources */,
+				04159384221425C800A18AB1 /* AnyPromise.swift in Sources */,
+				04159367221425C800A18AB1 /* UIViewController+Promise.swift in Sources */,
+				04159376221425C800A18AB1 /* join.swift in Sources */,
+				0415937E221425C800A18AB1 /* PMKCallVariadicBlock.m in Sources */,
+				0415936A221425C800A18AB1 /* afterlife.swift in Sources */,
+				04159365221425C800A18AB1 /* UIView+AnyPromise.m in Sources */,
+				0415937F221425C800A18AB1 /* hang.m in Sources */,
+				04159381221425C800A18AB1 /* wrap.swift in Sources */,
+				04159385221425C800A18AB1 /* AnyPromise.m in Sources */,
+				04159378221425C800A18AB1 /* Zalgo.swift in Sources */,
+				04159366221425C800A18AB1 /* PMKAlertController.swift in Sources */,
+				0415937C221425C800A18AB1 /* Promise+Properties.swift in Sources */,
+				0415936C221425C800A18AB1 /* NSURLSession+AnyPromise.m in Sources */,
+				0415936D221425C800A18AB1 /* NSObject+Promise.swift in Sources */,
+				04159369221425C800A18AB1 /* NSNotificationCenter+AnyPromise.m in Sources */,
+				04159387221425C800A18AB1 /* after.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04159324221424EB00A18AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04159325221424EB00A18AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04159327221424EB00A18AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W48WUZ29VT;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04159328221424EB00A18AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W48WUZ29VT;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0415931A221424EB00A18AB1 /* Build configuration list for PBXProject "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04159324221424EB00A18AB1 /* Debug */,
+				04159325221424EB00A18AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04159326221424EB00A18AB1 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04159327221424EB00A18AB1 /* Debug */,
+				04159328221424EB00A18AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04159317221424EB00A18AB1 /* Project object */;
+}
