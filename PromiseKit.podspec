@@ -1,17 +1,11 @@
 Pod::Spec.new do |s|
   s.name = "PromiseKit"
-
-  # `xcodebuild -project PromiseKit.xcodeproj -showBuildSettings` =~ /CURRENT_PROJECT_VERSION = ((\d\.)+\d)/
-  # abort("No version detected") if $1.nil?
-  # abort("Not tagged") unless `git tag`.split.include? $1
   s.version = "4.5.2"
-
   s.source = {
     :git => "https://github.com/mxcl/#{s.name}.git",
     :tag => s.version,
     :submodules => true
   }
-
   s.license = 'MIT'
   s.summary = 'Promises for Swift & ObjC.'
   s.homepage = 'http://promisekit.org'
@@ -21,10 +15,9 @@ Pod::Spec.new do |s|
   s.documentation_url = 'http://promisekit.org/docs/'
   s.default_subspecs = 'Foundation', 'UIKit', 'QuartzCore'
   s.requires_arc = true
+  s.swift_version = "4.2"
+  s.static_framework  =  true
 
-  # CocoaPods requires us to specify the root deployment targets
-  # even though for us it is nonsense. Our root spec has no
-  # sources.
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.11'
   s.watchos.deployment_target = '2.0'
